@@ -11,7 +11,8 @@ function Product (){
 
 
     return (
-        <div className ="w-full md:w-3/3 grid grid-col-1 grid-rows-1 md:grid-cols-3 md:grid-rows-3 gap-4 md:gap-2 ">
+        <div className =" w-full p-8 md:p-0
+        md:w-3/3 grid grid-col-1 grid-rows-1 md:grid-cols-3 md:grid-rows-3 justify-center  gap-10 md:gap-2 ">
             {cardElement}
         </div>
     )

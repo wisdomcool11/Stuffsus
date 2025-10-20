@@ -28,7 +28,8 @@ function TopFooter (){
                     className="bg-white text-stone-900 rounded-3xl px-5 py-3 w-full  md:w-[400px]" />
                     
                     <button className="md:absolute z-10 md:right-[75px] mt-3 md:top-[-7px]
-                    active:translate-y-1 transition  py-2 rounded-3xl bg-white text-black md:text-white md:bg-stone-950 w-[120px] ">
+                    active:translate-y-1 transition  py-2 rounded-3xl bg-white text-black md:text-white md:bg-stone-950 w-[120px] "
+                    >
                         send
                     </button>
                 </form>
@@ -75,10 +76,10 @@ function BottomFooter (){
             <div className="w-full flex flex-col md:justify-end md:items-end gap-2 md:h-[142px]">
                 <h4>Social Media</h4>
                 <div className="flex gap-4 text-xl md:[&_i]:text-3xl">
-                    <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
-                    <a href=""><i class="fa-brands fa-square-facebook"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=""><i classNames="fa-brands fa-square-x-twitter"></i></a>
+                    <a href=""><i className="fa-brands fa-square-facebook"></i></a>
+                    <a href=""><i className="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i className="fa-brands fa-square-instagram"></i></a>
                 </div>
             </div>
         </div>
